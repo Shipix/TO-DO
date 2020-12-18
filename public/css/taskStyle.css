@@ -1,8 +1,54 @@
-.newTask {
-    width: 100px;
-    height: 100px;
-    background-color: rgb(59, 49, 41);
-}
 body{
-    background-color: rgb(214, 172, 57);
+    background-color: rgb(212, 109, 13);
+}
+button{
+    border: none;
+    border-radius: 10px;
+}
+i{
+    color:rgb(144, 94, 53)
+}
+.newTask {
+    width: 450px;
+    height: 60px;
+    background-color: rgb(238, 154, 85);
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.13);
+}
+.para{
+    border: none;
+    background-color: rgb(238, 154, 85);
+    color: rgb(245, 245, 245) ;
+    width: 340px;
+}
+
+#ico1:hover{
+
+    transition: 1s;
+    color: rgb(15, 104, 42);
+    font-size: 20px;
+
+}
+#ico2:hover{
+
+    transition: 1s;
+    color: rgb(10, 167, 240);
+    font-size: 20px;
+
+}
+#ico3:hover{
+
+    transition: 1s;
+    color: rgb(184, 17, 17);
+    font-size: 20px;
+}
+
+#dashboard{
+    background-color: rgb(223, 218, 154);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 600px;
 }
